@@ -10,7 +10,7 @@
     <link rel="icon" type="image/png" href="./img/favicon.png">
     <style>
         body {
-            background: linear-gradient(135deg, #667eea 0%, #764ba2 100%);
+            background: linear-gradient(135deg, #667eea 0%, #007bff 100%);
             font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
             min-height: 100vh;
         }
@@ -53,7 +53,7 @@
             75% { transform: translateX(5px); }
         }
         .btn-custom {
-            background: linear-gradient(45deg, #667eea, #764ba2);
+            background: linear-gradient(45deg, #667eea, #007bff);
             border: none;
             border-radius: 25px;
             padding: 15px 30px;
@@ -124,30 +124,11 @@
                 <a href="index.html#inscricao" class="btn-secondary-custom">
                     <i class="fas fa-edit mr-2"></i>Usar outro e-mail
                 </a>
-                <a href="index.html" class="btn-custom">
-                    <i class="fas fa-home mr-2"></i>Voltar ao Início
-                </a>
+               
             </div>
 
-            <hr class="my-4">
-            
-            <div class="text-center">
-                <p class="text-muted mb-2">
-                    <i class="fas fa-phone mr-2"></i>(37) 3229-9500
-                </p>
-                <p class="text-muted mb-2">
-                    <i class="fas fa-envelope mr-2"></i>contato@fans.edu.br
-                </p>
-                <div class="mt-3">
-                    <a href="https://www.facebook.com/fans.edu" class="btn btn-outline-primary btn-sm mr-2" target="_blank">
-                        <i class="fab fa-facebook-f"></i>
-                    </a>
-                    <a href="https://www.instagram.com/faculdade_fans/" class="btn btn-outline-danger btn-sm mr-2" target="_blank">
-                        <i class="fab fa-instagram"></i>
-                    </a>
-                    <a href="https://www.linkedin.com/company/faculdade-de-nova-serrana--/posts/?feedView=all" class="btn btn-outline-info btn-sm" target="_blank">
-                        <i class="fab fa-linkedin-in"></i>
-                    </a>
+           
+                
                 </div>
             </div>
         </div>

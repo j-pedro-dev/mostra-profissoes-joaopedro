@@ -28,35 +28,35 @@ $mensagensCurso = [
         'titulo' => 'Futuro Contador!',
         'mensagem' => 'Excelente escolha! Ciências Contábeis te formará como especialista em gestão financeira e análise de dados contábeis.',
         'icone' => 'fas fa-calculator',
-        'cor' => '#28a745',
+        'cor' => '#007bff',
         'dicas' => ['Aprenda sobre legislação tributária', 'Desenvolva habilidades analíticas', 'Pratique com softwares contábeis']
     ],
     'Direito' => [
         'titulo' => 'Futuro Advogado!',
         'mensagem' => 'Você escolheu uma das profissões mais nobres! O Direito te capacitará para defender a justiça e contribuir com a sociedade.',
         'icone' => 'fas fa-balance-scale',
-        'cor' => '#6f42c1',
+        'cor' => '#007bff',
         'dicas' => ['Leia muito e desenvolva argumentação', 'Mantenha-se atualizado com as leis', 'Pratique oratória e escrita']
     ],
     'Engenharia de Software' => [
         'titulo' => 'Futuro Engenheiro de Software!',
         'mensagem' => 'Perfeito! Você está entrando em uma área em constante crescimento. A Engenharia de Software te preparará para criar soluções tecnológicas inovadoras.',
         'icone' => 'fas fa-code',
-        'cor' => '#fd7e14',
+        'cor' => '#007bff',
         'dicas' => ['Pratique programação regularmente', 'Aprenda sobre metodologias ágeis', 'Mantenha-se atualizado com novas tecnologias']
     ],
     'Pedagogia' => [
         'titulo' => 'Futuro Pedagogo!',
         'mensagem' => 'Que escolha inspiradora! A Pedagogia te formará para moldar mentes e contribuir com a educação das próximas gerações.',
         'icone' => 'fas fa-graduation-cap',
-        'cor' => '#20c997',
+        'cor' => '#007bff',
         'dicas' => ['Desenvolva paciência e empatia', 'Mantenha-se atualizado com métodos pedagógicos', 'Pratique comunicação didática']
     ],
     'Psicologia' => [
         'titulo' => 'Futuro Psicólogo!',
         'mensagem' => 'Excelente decisão! A Psicologia te capacitará para entender o comportamento humano e promover bem-estar mental.',
         'icone' => 'fas fa-brain',
-        'cor' => '#e83e8c',
+        'cor' => '#007bff',
         'dicas' => ['Desenvolva habilidades de escuta', 'Mantenha-se atualizado com pesquisas', 'Pratique empatia e compreensão']
     ]
 ];
@@ -81,7 +81,7 @@ $cursoInfo = isset($mensagensCurso[$curso]) ? $mensagensCurso[$curso] : [
     <link rel="icon" type="image/png" href="./img/favicon.png">
     <style>
         body {
-            background: linear-gradient(135deg,#667eea, #764ba2 100%);
+            background: linear-gradient(135deg,#667eea, #007bff 100%);
             font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
             min-height: 100vh;
         }
@@ -110,13 +110,13 @@ $cursoInfo = isset($mensagensCurso[$curso]) ? $mensagensCurso[$curso] : [
             left: 0;
             right: 0;
             height: 5px;
-            background: linear-gradient(45deg,rgb(29, 49, 136), #764ba2);
+            background: linear-gradient(45deg,rgb(29, 49, 136), #007bff);
         }
         .success-icon {
             font-size: 5rem;
             margin-bottom: 1.5rem;
             animation: bounceIn 1s ease-out;
-            color: #28a745;
+            color: #007bff;
         }
         @keyframes bounceIn {
             0% { transform: scale(0.3); opacity: 0; }
@@ -171,14 +171,14 @@ $cursoInfo = isset($mensagensCurso[$curso]) ? $mensagensCurso[$curso] : [
             font-size: 1.1rem;
         }
         .next-steps {
-            background: linear-gradient(45deg, #667eea, #764ba2);
+            background: linear-gradient(45deg, #667eea, #007bff);
             color: white;
             border-radius: 15px;
             padding: 2rem;
             margin: 2rem 0;
         }
         .btn-custom {
-            background: linear-gradient(45deg, #667eea, #764ba2);
+            background: linear-gradient(45deg, #667eea, #007bff);
             border: none;
             border-radius: 25px;
             padding: 15px 30px;
@@ -223,7 +223,7 @@ $cursoInfo = isset($mensagensCurso[$curso]) ? $mensagensCurso[$curso] : [
                 <i class="fas fa-check-circle"></i>
             </div>
             
-            <h1 class="mb-3" style="color: #28a745;">Inscrição Realizada com Sucesso!</h1>
+            <h1 class="mb-3" style="color: #007bff;">Inscrição Realizada com Sucesso!</h1>
             
             <p class="student-name">Olá, <?php echo htmlspecialchars($nome); ?>!</p>
             
@@ -251,31 +251,7 @@ $cursoInfo = isset($mensagensCurso[$curso]) ? $mensagensCurso[$curso] : [
                 <a href="index.html" class="btn-custom">
                     <i class="fas fa-home mr-2"></i>Voltar ao Início
                 </a>
-                <a href="index.html#evento" class="btn-secondary-custom">
-                    <i class="fas fa-play mr-2"></i>Ver Vídeos dos Cursos
-                </a>
             </div>
-
-            <hr class="my-4">
-            
-            <div class="text-center">
-                <p class="text-muted mb-2">
-                    <i class="fas fa-phone mr-2"></i>(37) 3229-9500
-                </p>
-                <p class="text-muted mb-2">
-                    <i class="fas fa-envelope mr-2"></i>contato@fans.edu.br
-                </p>
-                <div class="mt-3">
-                    <a href="https://www.facebook.com/fans.edu" class="btn btn-outline-primary btn-sm mr-2" target="_blank">
-                        <i class="fab fa-facebook-f"></i>
-                    </a>
-                    <a href="https://www.instagram.com/faculdade_fans/" class="btn btn-outline-danger btn-sm mr-2" target="_blank">
-                        <i class="fab fa-instagram"></i>
-                    </a>
-                    <a href="https://www.linkedin.com/company/faculdade-de-nova-serrana--/posts/?feedView=all" class="btn btn-outline-info btn-sm" target="_blank">
-                        <i class="fab fa-linkedin-in"></i>
-                    </a>
-                </div>
             </div>
         </div>
     </div>  
